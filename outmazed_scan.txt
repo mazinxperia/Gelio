@@ -1,1 +1,0 @@
-README.md:450:> While the core branding has been neutralized and the "seeded" content removed, you may occasionally find legacy naming conventions (e.g. `OutMazed` in internal file paths or logs), internal asset remnants, or "random things" in the deep codebase. These do not affect runtime behavior and are being systematically cleaned. 
