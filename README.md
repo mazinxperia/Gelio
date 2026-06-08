@@ -1,16 +1,43 @@
 <div align="center">
 
-# 💎 Gelio
+<img src="./app/src/main/res/drawable-nodpi/gelio_logo.png" alt="Gelio logo" width="128" />
 
-🎨 **Modern, Tablet-First Digital Showcase & Kiosk Builder**
+# Gelio
+
+<strong>Modern, tablet-first digital showcase and kiosk builder.</strong>
 
 Built with Jetpack Compose and Material 3 Expressive. Gelio is an offline-first, local-content platform for creating professional presentation shells on Android tablets.
 
+<br>
+
+<a href="#quick-glance"><img alt="Quick Glance" src="https://img.shields.io/badge/Quick_Glance-111827?style=for-the-badge"></a>
+<a href="#screenshots"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-0F766E?style=for-the-badge"></a>
+<a href="#section-ecosystem-deep-dive"><img alt="Section Ecosystem" src="https://img.shields.io/badge/Section_Ecosystem-F59E0B?style=for-the-badge"></a>
+<a href="#kiosk-lockdown-system"><img alt="Kiosk Lockdown" src="https://img.shields.io/badge/Kiosk_Lockdown-334155?style=for-the-badge"></a>
+
+<br><br>
+
+<img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white">
+<img alt="Jetpack Compose" src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white">
+<img alt="Room" src="https://img.shields.io/badge/Room_SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white">
+<img alt="Offline First" src="https://img.shields.io/badge/Offline_First-0F766E?style=flat-square">
+
 </div>
+
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/Idle%20Screen.png" alt="Gelio idle welcome screen" width="410" />
+  <img src="docs/screenshots/Admin%20Panel.png" alt="Gelio admin panel" width="410" />
+</p>
+
+<p align="center">
+  <sub>A local-first Android tablet shell for premium showrooms, galleries, retail spaces, and kiosk-grade content experiences.</sub>
+</p>
 
 ---
 
-## 📑 Table Of Contents
+## Table Of Contents
 
 - [Scope And Intent](#scope-and-intent)
 - [Quick Glance](#quick-glance)
@@ -37,7 +64,7 @@ Built with Jetpack Compose and Material 3 Expressive. Gelio is an offline-first,
 > [!TIP]
 > Use the links above to jump to a section. Then click the expand row under each heading to open the full content.
 
-## 🚀 Scope And Intent
+## Scope And Intent
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -57,7 +84,7 @@ Gelio was built to:
 
 </details>
 
-## 📊 Quick Glance
+## Quick Glance
 
 | Item | Details |
 | --- | --- |
@@ -72,7 +99,7 @@ Gelio was built to:
 
 ---
 
-## 🧪 Tested Environment
+## Tested Environment
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -94,7 +121,7 @@ Gelio has been validated on a variety of hardware to ensure stability in long-ru
 
 </details>
 
-## 🛠️ App Specification
+## App Specification
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -114,7 +141,7 @@ Gelio has been validated on a variety of hardware to ensure stability in long-ru
 
 </details>
 
-## 📱 What The App Does
+## What The App Does
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -140,7 +167,7 @@ The control center for the entire showcase.
 
 </details>
 
-## 🧩 Section Ecosystem Deep-Dive
+## Section Ecosystem Deep-Dive
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -149,49 +176,49 @@ The control center for the entire showcase.
 
 Each section in Gelio is a modular unit with its own UI and data model.
 
-### 1. 📷 Image Gallery
+### 1. Image Gallery
 - High-res hero images with pinch-to-zoom.
 - Background pre-warming of adjacent images.
 - Title and description overlays.
 
-### 2. 🌐 360° Virtual Tours
+### 2. 360° Virtual Tours
 - Embedded WebView with cross-origin navigation blocks.
 - Automatic thumbnail fetching from Matterport/Kuula URLs.
 - Full-screen immersive mode.
 
-### 3. 📺 Video Library
+### 3. Video Library
 - Support for local MP4 files in app storage.
 - YouTube and Vimeo streaming integration.
 - Custom play-button thumbnail overrides.
 
-### 4. 📄 Digital Brochures
+### 4. Digital Brochures
 - Smooth, physics-based PDF paging.
 - Automated cover extraction from the first page of the document.
 - Grid view for multi-brochure collections.
 
-### 5. 🏢 Portfolio Cards
+### 5. Portfolio Cards
 - Featured project layouts with key stats.
 - Hero-to-Detail shared element transitions.
 - Inline CTA buttons for external links or other sections.
 
-### 6. 📍 Interactive Maps
+### 6. Interactive Maps
 - Pin dropping on World or Regional maps.
 - Admin viewport locking (Sets the default zoom/center).
 - SVG-based region highlighting.
 
-### 7. ⭐ Google Reviews
+### 7. Google Reviews
 - Professional social proof rendering.
 - Star ratings and timestamp displays.
 - Hand-picked review selection for quality control.
 
-### 8. 🎨 Art Gallery
+### 8. Art Gallery
 - Complex hierarchy: Group -> Hero -> Gallery.
 - Vertical scrolling for groups, horizontal for images.
 - Premium typography and spacing.
 
 </details>
 
-## 🎨 How Dynamic Branding Works
+## How Dynamic Branding Works
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -209,7 +236,7 @@ Gelio uses a custom **Tonal Palette Engine** located in `Color.kt`.
 
 </details>
 
-## 📦 How .kskm Storage Works
+## How .kskm Storage Works
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -234,7 +261,7 @@ The `.kskm` format is a proprietary ZIP-based archive used for full portability.
 
 </details>
 
-## 🛡️ Kiosk Lockdown System
+## Kiosk Lockdown System
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -251,7 +278,7 @@ Gelio is built to survive in public environments with zero supervision.
 
 </details>
 
-## 🏗️ Deep Technical Architecture
+## Deep Technical Architecture
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -273,7 +300,7 @@ Gelio is built on a "Repository-First" reactive architecture.
 
 </details>
 
-## 🖼️ Media & Rendering Pipeline
+## Media & Rendering Pipeline
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -287,7 +314,7 @@ Gelio is built on a "Repository-First" reactive architecture.
 
 </details>
 
-## 🗄️ Persistence & Migrations
+## Persistence & Migrations
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -304,7 +331,7 @@ Gelio uses a versioned Room implementation with manual migration paths.
 
 </details>
 
-## 🚧 Major Development Setbacks & Fixes
+## Major Development Setbacks & Fixes
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -322,7 +349,7 @@ Gelio uses a versioned Room implementation with manual migration paths.
 
 </details>
 
-## 🤝 Handoff Summary
+## Handoff Summary
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -336,7 +363,7 @@ Gelio uses a versioned Room implementation with manual migration paths.
 
 </details>
 
-## 📂 Project Structure & File Glossary
+## Project Structure & File Glossary
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -373,7 +400,7 @@ Gelio/
 
 </details>
 
-## ❓ Troubleshooting & FAQ
+## Troubleshooting & FAQ
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -389,7 +416,7 @@ Gelio/
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 <div align="center">
 
@@ -421,7 +448,7 @@ Gelio/
 
 ---
 
-## 🛠️ Build & Run Notes
+## Build & Run Notes
 
 <details>
 <summary><strong>Open section</strong></summary>
@@ -437,7 +464,7 @@ Gelio/
 
 ---
 
-## ⚠️ Legacy & Origin Disclaimer
+## Legacy & Origin Disclaimer
 
 <details>
 <summary><strong>Open section</strong></summary>
